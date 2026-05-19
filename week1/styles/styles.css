@@ -1,0 +1,46 @@
+html {
+    height: 100%;
+}
+body {
+    background-image: url('../resources/images/cute.jpg');
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.title {
+    text-align: center;
+    color: antiquewhite;
+}
+.container {
+    margin: 10px;
+}
+label {
+    font-size: 21px;
+}
+.input-group {
+    width: 50%;
+    height: 24px;
+    opacity: 0.5;
+    border-radius: 14px;
+}
+.submit {
+    text-align: center;
+}
+#submit {
+    background-color: rgb(27, 27, 80);
+    color: antiquewhite;
+    width: 50%;
+    height: 27px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+#submit:hover {
+    color: rgb(27, 27, 80);
+    background-color: antiquewhite;
+}
+#login {
+    color: rgb(27, 27, 80);
+}
+#login:visited {
+    color: rgb(27, 27, 80);
+}
